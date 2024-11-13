@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Set text to white globally */
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  background-size: cover;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Apply white text color to all elements */
+* {
+  color: #fff;
+}
+
+/* Make sure any link styling is also adjusted */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bbb; /* Lighten link color on hover for contrast */
+}

@@ -5,35 +5,45 @@
   width: 100%;
   background-color: #333;
   color: #fff;
-  padding: 1rem;
-  text-align: center;
+  padding: 0.5rem 1rem; /* Slimmer padding */
+  display: flex;
+  align-items: center;
   z-index: 1000;
 }
 
-.navbar ul {
+.navbar-left {
+  position: absolute;
+  left: 1rem; /* Position the name on the left with some padding */
+}
+
+.navbar-left h1 {
+  font-size: 1.2rem; /* Adjust font size if needed */
+  margin: 0;
+}
+
+.navbar-center {
+  margin: 0 auto; /* Center the buttons in the navbar */
+}
+
+.navbar-center ul {
   list-style: none;
+  display: flex;
+  gap: 1rem;
   padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
 }
 
-.navbar ul li {
-  display: inline;
-}
-
-.navbar ul li a {
+.navbar-center ul li a {
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.8rem; /* Slimmer button padding */
   color: #fff;
   text-decoration: none;
   background-color: #555;
-  border-radius: 20px; /* Rounded corners */
+  border-radius: 20px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.navbar ul li a:hover {
-  background-color: #777; /* Change background color on hover */
-  transform: scale(1.05); /* Slightly enlarge the button on hover */
+.navbar-center ul li a:hover {
+  background-color: #777;
+  transform: scale(1.05);
 }

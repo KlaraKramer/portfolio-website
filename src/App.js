@@ -5,19 +5,22 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <div className="main-content"> {/* Wrapper div for padding */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:id" element={<ProjectDetail />} />
-        </Routes>
+      <div id="root">
+        <Navbar />
+        <div className="main-content"> {/* Wrapper div for main content */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<ProjectDetail />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </Router>
   );
 }
