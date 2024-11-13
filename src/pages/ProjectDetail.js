@@ -36,8 +36,16 @@ function ProjectDetail() {
       <br />
       <p>{project.details}</p>
       <br />
-      <h3>Links and Resources</h3>
-      <p><a href={resources.link}>{resources.title}</a></p>
+      {resources.title == "" ? (
+        <div></div>
+      ) : (
+        <div>
+          <h3>Links and Resources</h3>
+          <p><a href={resources.link}>{resources.title}</a></p>
+        </div>
+      )
+      }
+      
     </div>
   );
 }
