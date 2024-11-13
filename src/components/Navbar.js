@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <h1>Klara Krämer</h1>
+        <h1><Link to="/">Klara Krämer</Link></h1>
       </div>
       <div className="navbar-center">
         <ul>

@@ -3,8 +3,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
-  color: #fff;
+  background-color: #0B101E;
+  color: #1a1a2e;
   padding: 0.5rem 1rem; /* Slimmer padding */
   display: flex;
   align-items: center;
@@ -38,12 +38,12 @@
   padding: 0.3rem 0.8rem; /* Slimmer button padding */
   color: #fff;
   text-decoration: none;
-  background-color: #555;
+  background-color: #145A90;
   border-radius: 20px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .navbar-center ul li a:hover {
-  background-color: #777;
+  background-color: #1D87D7;
   transform: scale(1.05);
 }
