@@ -42,7 +42,7 @@ html, body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #fff; /* Set text to white globally */
-  background: linear-gradient(135deg, #1a1a2e, #202F5B, #19559F);  /*#16213e, #0f3460*/
+  background: linear-gradient(to right, #1a1a2e, #202F5B, #19559F);  /*#16213e, #0f3460*/
   background-size: cover;
 }
 

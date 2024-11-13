@@ -1,19 +1,38 @@
-.projects-page {
+.projects-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Arrange items in a single column */
+    gap: 1.5rem;
+    align-items: center; /* Center the tiles horizontally within the container */
     padding: 2rem;
   }
   
-  .projects-grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    max-width: 900px; /* Limits the grid width to ensure it is centered */
-    width: 100%;
+  .project-tile {
+    background-color: #1870B4;
+    color: #000;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 100%; /* Make tiles take full width of the container */
+    max-width: 800px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
   }
   
-  .projects-page h1 {
-    margin-bottom: 2rem;
-    text-align: center;
+  .project-tile h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .project-tile p {
+    font-size: 1rem;
+  }
+  
+  .project-tile:hover {
+    transform: translateY(-5px); 
+    background-color: #2891E2;
+  }
+
+  .icon-image {
+    width: 40px;
+    height: 40px;
   }
