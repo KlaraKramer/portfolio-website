@@ -11,7 +11,7 @@ function Home() {
               </div>
               <div className="profile-content">
                   <div className="profile-text">
-                      <p>Hello! I am a <b>Data Analyst</b> and <b>Software Engineer</b> with experience in developing innovative solutions.</p>
+                      <p>Hello! I am a <b>Data Analyst</b> and <b>Software Engineer</b> with experience in deriving data-driven insights and developing innovative solutions.</p>
                       <p><a href="/projects">Explore my projects to learn more about my work in data science, business intelligence, and software development.</a></p>
                   </div>
                   <div className="flags-section">
