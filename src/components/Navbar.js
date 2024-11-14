@@ -12,6 +12,7 @@ function Navbar() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/projects">Projects</Link></li>
+          <li><Link to ="https://www.linkedin.com/in/klara-krämer/" target="_blank">LinkedIn</Link></li>
         </ul>
       </div>
     </nav>

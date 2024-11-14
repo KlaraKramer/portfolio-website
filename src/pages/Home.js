@@ -16,7 +16,6 @@ function Home() {
                     </div>
                     <div>
                         <h3>Linguistinc Proficiencies</h3>
-                        <br />
                         <div className="flags-section">
                             <img src="/germanFlag.png" alt="German flag" className="flag-image" title="German: Native or bilingual proficiency" />
                             <img src="/britishFlag.png" alt="British flag" className="flag-image" title="English: Native or bilingual proficiency" />
