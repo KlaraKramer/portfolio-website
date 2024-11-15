@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import CV from '../Curriculum Vitae 2024.pdf'
 
 function Home() {
     return (
@@ -49,7 +48,7 @@ function Home() {
                         <p><b>Resilience</b> and <b>reliability</b></p>               
                   </div>
                   <div>
-                        <p><u><b><a href={CV} download="CV" target='_blank'>Download CV</a></b></u></p>
+                        {/* <p><u><b><a href={CV} download="CV" target='_blank'>Download CV</a></b></u></p> */}
                   </div>
               </div>
           </div>

@@ -4,6 +4,9 @@ import { useParams } from 'react-router-dom';
 import './Projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
+import ReportingTool from '../DynamicReportingTool.pdf';
+import ProcessesAndPotentials from '../AnalysisOfProcessesAndPotentials.pdf';
+import ResearchProposal from '../CS4040_Research_Proposal.pdf';
 
 const projectData = {
   1: { title: "AtRoom - An Indoor Navigation Solution", 
@@ -36,9 +39,9 @@ const projectData = {
 const resourceData = {
   1: { title: "AtRoom Website", link: "https://www.atroom.at"},
   2: { title: "GitHub Repository", link: "https://github.com/KlaraKramer/TIANE"},
-  3: { title: "", link: ""},
-  4: { title: "", link: ""},
-  5: { title: "", link: ""}
+  3: { title: "Project Slides", link: ReportingTool},
+  4: { title: "Project Slides", link: ProcessesAndPotentials},
+  5: { title: "Research Proposal", link: ResearchProposal}
 }
 
 function ProjectDetail() {
@@ -65,8 +68,12 @@ function ProjectDetail() {
       ) : (
         <div>
           <h3>Links and Resources</h3>
-          <Link to ={resources.link} target="_blank"><FontAwesomeIcon icon={faLink} style={{color: "#ffffff",}} /> {resources.title}</Link>
-          {/* <p><a href={resources.link}>{resources.title}</a></p> */}
+          {typeof resources.link === 'string' ? (
+            <Link to ={resources.link} target="_blank"><FontAwesomeIcon icon={faLink} style={{color: "#ffffff",}} /> {resources.title}</Link>
+          ) : (
+            <p><u><b><a href={resources.link} download={resources.title} target='_blank'>{resources.title}</a></b></u></p>
+          )
+          }
         </div>
       )
       }
