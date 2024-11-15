@@ -41,3 +41,40 @@
     width: 60px;
     height: 60px;
   }
+
+  /* Styling for ProjectDetail images */
+  .content-container {
+    display: flex;
+    justify-content: space-between; /* Push elements to opposite sides */
+    align-items: flex-start; /* Align items at the top */
+    position: relative; /* Allows absolute positioning within */
+    margin: 2rem;
+  }
+  
+  /* Text section styling */
+  .text-section {
+    flex: 1; /* Takes up available space */
+    margin-right: 1rem;
+  }
+  
+  .align-text {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Figure styling */
+  .right-aligned-figure {
+    flex-shrink: 0; /* Prevent the figure from resizing */
+    text-align: center; /* Center caption under the image */
+  }
+  
+  .figure-image {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .figure-caption {
+    font-size: 0.875rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+  }

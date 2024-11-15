@@ -46,7 +46,6 @@ function Projects() {
                 <img src={project.image} className="icon-image" alt={project.title}/>
                 <h3>{project.title}</h3>
                 <p>{project.summary}</p>
-                <br />
                 <p><u>Keywords:</u> {project.keywords}</p>
             </div>
         </Link>
