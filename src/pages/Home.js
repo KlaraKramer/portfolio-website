@@ -15,7 +15,7 @@ function Home() {
                         <p><a href="/projects">Explore my projects to learn more about my work in data science, business intelligence, and software development.</a></p>
                     </div>
                     <div>
-                        <h3>Linguistinc Proficiencies</h3>
+                        <h3>Linguistic Proficiencies</h3>
                         <div className="flags-section">
                             <img src="/germanFlag.png" alt="German flag" className="flag-image" title="German: Native or bilingual proficiency" />
                             <img src="/britishFlag.png" alt="British flag" className="flag-image" title="English: Native or bilingual proficiency" />
