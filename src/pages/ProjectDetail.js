@@ -54,7 +54,7 @@ const projectData = {
        image: "/nlp.png", 
        details: "Document similarity assessment is crucial for applications like information retrieval, plagiarism detection, and recommendation systems, all of which rely on the choice of a suitable document embedding method to measure similarity in terms of content, structure, and meaning. Traditional methods like TF-IDF capture term relevance but lack the ability to account for contextual relationships between words. More advanced methods, such as Word2Vec and BERT, address this by embedding words into continuous vector spaces, capturing semantic relationships and context.", 
        details2: 'Previous studies have focused on specialised domains like patents, with limited research on how these methods perform on more creative and nuanced text types, such as poetry and song lyrics. This study aims to evaluate the effectiveness of three document embedding techniques—TF-IDF, Averaged Word2Vec, and BERT—on two contrasting datasets: Shakespeare\'s sonnets and Taylor Swift\'s lyrics, with the goal of exploring their ability to generate reliable document similarity scores across genres.',
-       details3: 'The project is ongoing, and the experiment itself is currently being conducted. Results will be reported within this month.',
+       details3: 'The results showed that TF-IDF was most effective when applied to Swift lyrics, while it struggled with the metaphorical language of Shakespeare sonnets. Averaged Word2Vec embeddings performed better at capturing semantic similarity, particularly for Swift-Shakespeare pairs, but did not show significant differences between the Shakespeare and Swift datasets. Contrary to expectations, BERT did not identify more similarities within the Shakespeare dataset than the other methods. There is a range of future work that could build on this research to develop a deeper and more nuanced understanding of how different embedding methods perform on diverse datasets within the context of similarity scoring.',
        keywords: "natural language processing | computing science research | data science",
        img: "",
        alt: "",
@@ -79,7 +79,7 @@ const resourceData = {
        title2: "", link2: "", awards: []
   },
   5: { title: "Research Proposal", link: ResearchProposal,
-       title2: "", link2: "", awards: []
+       title2: "Licensed Online Publication (arXiv)", link2: "https://arxiv.org/abs/2412.17552", awards: []
   }
 }
 
