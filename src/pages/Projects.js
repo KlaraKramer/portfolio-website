@@ -33,7 +33,13 @@ function Projects() {
     summary: "A comparative study on different embedding methods for document similarity scoring. Assessing document similarity is essential in NLP applications like recommendation systems, where it helps match content to user preferences. This study compares three document embedding methods on complex datasets of Shakespeare sonnets and Taylor Swift lyrics to evaluate each method's reliability, adaptability, and robustness across contrasting text genres.", 
     image: "/nlp.png", 
     details: "Document similarity assessment is crucial for applications like information retrieval, plagiarism detection, and recommendation systems, relying on the choice of document embedding method to measure similarity in terms of content, structure, and meaning. Traditional methods like TF-IDF capture term relevance but lack the ability to account for contextual relationships between words. More advanced methods, such as Word2Vec and BERT, address this by embedding words into continuous vector spaces, capturing semantic relationships and context. Previous studies have focused on specialized domains like patents, with limited research on how these methods perform for more creative and nuanced text types, such as poetry and song lyrics. This study aims to evaluate the effectiveness of three document embedding techniques—TF-IDF, Averaged Word2Vec, and BERT—on two contrasting datasets: Shakespeare's sonnets and Taylor Swift's lyrics, with the goal of exploring their ability to generate reliable document similarity scores across genres. The project is ongoing, and the experiment itself is currently being conducted. Results will be reported within this month.", 
-    keywords: "natural language processing | computing science research | data science" }
+    keywords: "natural language processing | computing science research | data science" },
+  { id: 6,
+    title: "Interactive Visual Data Engineering", 
+    summary: "This project explores how mixed-initiative, visualisation-driven tools can support users during data engineering by combining human expertise with automated assistance. A prototype assistant was developed and tested in a user study, showing improved task accuracy and usability, especially for non-technical users. The tool's visual and interactive features helped users produce cleaner datasets and complete tasks more easily.", 
+    image: "/reporting_tool.png", 
+    details: "DETAILS", 
+    keywords: "data science | data engineering | computing science research" }
   ]
 
 

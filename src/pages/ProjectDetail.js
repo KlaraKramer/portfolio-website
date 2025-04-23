@@ -58,7 +58,17 @@ const projectData = {
        keywords: "natural language processing | computing science research | data science",
        img: "",
        alt: "",
-       width: 0 }
+       width: 0 },
+  6: { title: "Interactive Visual Data Engineering", 
+      summary: "This project explores how mixed-initiative, visualisation-driven tools can support users during data engineering by combining human expertise with automated assistance. A prototype assistant was developed and tested in a user study, showing improved task accuracy and usability, especially for non-technical users. The tool's visual and interactive features helped users produce cleaner datasets and complete tasks more easily.", 
+      image: "/reporting_tool.png", 
+      details: "Data-driven decision-making is essential to virtually all modern domains ranging from business and public policy to ML-driven healthcare, yet the quality of insights depends heavily on the quality of the input data. Ensuring high data quality, accuracy, and integrity requires data engineering - the process of cleaning, transforming, and preparing raw data for analysis. Data engineering remains a critical bottleneck in the data science pipeline since it requires human expertise and is very time-consuming. Despite advancements in automated Machine Learning, data engineering tasks remain difficult to fully automate, as they involve open-ended and context-dependent decisions.", 
+      details2: 'This project addresses this challenge by investigating how mixed-initiative visualisationdriven tools can support users during data engineering. This approach combines human intuition and domain expertise with the efficiency of algorithms, delegating repetitive computational tasks to machines while leaving strategic decision-making to users. Automatic visualisations are integrated into the workflow to help users develop accurate mental models of the data and the data engineering workflow. This enables the human users to make more informed decisions. To explore the approach’s usefulness during data engineering, a prototype assistant was developed and evaluated through a controlled user study',
+      details3: 'The tool significantly improved usability and task accuracy, with the greatest benefits observed among users without technical experience. Participants described the tasks as easier to complete and generated cleaner output datasets, attributable to the tool’s interactive design and visual feedback. Although no significant improvements in perceived guidance or user confidence in the output data quality were observed, qualitative responses highlighted strong user appreciation for the visual and interactive elements. An analysis of the results reveals that user confidence in the quality of the output data could be enhanced by integrating a real-time data quality metric into the GUI, a finding that may prove crucial to future work. These findings suggest that mixed-initiative, visual tools can reduce cognitive burden and improve outcomes in data engineering workflows, offering a promising direction for making data science more inclusive and efficient. Future research should explore expanded functionality, improved feedback mechanisms, and broader validation to fully realise the potential of this approach.',
+      keywords: "data science | data engineering | computing science research",
+      img: "/action-screenshot-more-square.jpg",
+      alt: "A screenshot of the developed prototype tool",
+      width: 0 }
 };
 
 const resourceData = {
@@ -80,7 +90,10 @@ const resourceData = {
   },
   5: { title: "Research Proposal", link: ResearchProposal,
        title2: "Licensed Online Publication (arXiv)", link2: "https://arxiv.org/abs/2412.17552", awards: []
-  }
+  },
+  6: { title: "", link: "",
+      title2: "", link2: "", awards: []
+  },
 }
 
 function ProjectDetail() {
